@@ -8,8 +8,8 @@
 }
 
 .open {
-  left: -2000px;
+  left: 0;
 }
 .closed {
-  left: 0;
+  left: -2000px;
 }

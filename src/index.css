@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap");
+
 :root {
   --bg-color: #1e1e2e;
   --surface: #23252e;
@@ -20,7 +22,7 @@
   --box-shadow-color: rgba(0, 0, 0, 0.5);
   --text-shadow-color: rgba(255, 255, 255, 0.2);
 
-  --link-color: #8be9fd;
+  --status-bar: #8be9fd;
 
   --transition: 0.4s;
 
@@ -40,6 +42,7 @@ body {
   width: 100%;
   background-color: var(--bg-color);
   color: var(--text-color);
+  font-family: "Source Code Pro", monospace;
 }
 
 li {
@@ -52,6 +55,16 @@ button {
   border: none;
   color: inherit;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "JetBrains Mono", monospace;
+  /* color: #98c379;*/
+}
+
 section {
   height: 100vh;
 }
