@@ -1,0 +1,14 @@
+.home {
+  width: 100%;
+  height: inherit;
+  position: relative;
+}
+
+.home__menubar {
+  width: 30px;
+  position: fixed;
+  top: 10px;
+  left: 2%;
+  z-index: var(--z-index-2);
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.sidebar {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  background-color: var(--surface);
+  transition: var(--transition);
+  z-index: var(--z-index-1);
+}
+
+.open {
+  left: -2000px;
+}
+.closed {
+  left: 0;
+}
