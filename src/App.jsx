@@ -1,17 +1,19 @@
 import { useState } from "react";
 
 import MainComponent from "./components/MainComponent/MainComponent";
-import Sidebar from "./components/Sidebar/Sidebar";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
 
 import "./App.css";
-import Footer from "./components/Footer/Footer";
 const App = () => {
-  const [isSidebarOpen, setIsSidebaropen] = useState(false);
-  const handleMenuBarClick = () => setIsSidebaropen((prevValue) => !prevValue);
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  const handleMenuBarClick = () => setIsNavbarOpen((prevValue) => !prevValue);
   return (
     <div className="app">
-      <Sidebar isSidebarOpen={isSidebarOpen} />
+      <Navbar isNavbarOpen={isNavbarOpen} />
       <MainComponent handleMenuBarClick={handleMenuBarClick} />
+      <About />
       <Footer />
     </div>
   );

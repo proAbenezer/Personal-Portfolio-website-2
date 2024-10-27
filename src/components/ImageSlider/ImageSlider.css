@@ -1,0 +1,29 @@
+.slider {
+  position: relative;
+  min-width: 300px;
+  min-height: 400px;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the area, cropping as necessary */
+  object-position: center; /* Center the images in the slider */
+}
+
+.image__arrow {
+  position: absolute;
+  z-index: var(--z-index-2);
+  color: var(--status-bar);
+}
+
+.image__arrow--left {
+  left: -20px;
+  top: 50%;
+}
+
+.image__arrow--right {
+  right: -20px;
+  top: 50%;
+}

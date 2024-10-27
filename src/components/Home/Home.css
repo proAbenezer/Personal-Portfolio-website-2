@@ -21,7 +21,7 @@
   position: absolute;
 }
 
-.home__text p {
+.home__text .home__typedtext {
   margin-bottom: 2%;
   font-size: 12px;
 }
@@ -59,7 +59,7 @@
   font-weight: bold;
 }
 
-.ascii-art::after {
+/* .ascii-art::after {
   content: "";
   position: absolute;
   width: 10px;
@@ -74,4 +74,4 @@
   50% {
     opacity: 0;
   }
-}
+} */

@@ -2,7 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import "./Home.css";
+import { ReactTyped } from "react-typed";
 const Home = ({ handleMenuBarClick }) => {
+  const text = `> Fullstack Web Developer | Competitive Programmer \n> Location: Hawassa, Ethiopia \n > Explore my projects, learn about my journey, or connect with me.`;
+
   return (
     <section className="home">
       <FontAwesomeIcon
@@ -22,16 +25,16 @@ const Home = ({ handleMenuBarClick }) => {
  |  _  | (_) | | | | | |  __/
  |_| |_|\\___/|_| |_| |_|\\___|`}
         </h1>
-
-        <p>Fullstack Web Developer | Competitive Programmer</p>
-        <p>
-          &gt; Location: Hawassa, Ethiopia &gt; Hometown: Addis Ababa, Ethiopia
-        </p>
-        <p>&gt; School: Hawassa University</p>
-        <p>&gt; Age: 20</p>
-        <p>
-          &gt; Explore my projects, learn about my journey, or connect with me.
-        </p>
+        <ReactTyped
+          strings={[
+            "> Fullstack Web Developer | Competitive Programmer <br /> > Location: Shashemen, Ethiopia<br /> > Explore my projects, learn about my journey, or connect with me. ",
+          ]}
+          typeSpeed={40}
+          loop={false}
+          showCursor={true}
+          startWhenVisible={true}
+          className="home__typedtext"
+        />
       </div>
     </section>
   );
