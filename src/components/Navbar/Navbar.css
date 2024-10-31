@@ -26,10 +26,6 @@
 .nav__links--container li a:hover {
   color: var(--status-bar);
 }
-.nav__links--container li a:active,
-.nav__links--container li a:focus {
-  color: var(--text-accent);
-}
 
 .nav__links--container li {
   position: relative;
@@ -59,8 +55,4 @@
 
 .nav__links--container li a:hover::after {
   transform: scaleX(1);
-}
-
-.nav__links--container li a:active .nav__links--container li a::after {
-  background: var(--text-accent);
 }
