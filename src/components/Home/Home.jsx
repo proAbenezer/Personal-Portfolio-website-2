@@ -4,8 +4,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
 import { ReactTyped } from "react-typed";
 const Home = ({ handleMenuBarClick }) => {
-  const text = `> Fullstack Web Developer | Competitive Programmer \n> Location: Hawassa, Ethiopia \n > Explore my projects, learn about my journey, or connect with me.`;
-
   return (
     <section className="home">
       <FontAwesomeIcon

@@ -1,7 +1,7 @@
 .slider {
   position: relative;
-  min-width: 300px;
-  min-height: 400px;
+  width: 300px;
+  height: 400px;
   position: relative;
 }
 

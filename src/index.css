@@ -48,7 +48,9 @@ body {
 li {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+}
 a,
 input,
 button {
@@ -66,5 +68,4 @@ h6 {
 }
 
 section {
-  height: 100vh;
 }

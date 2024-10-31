@@ -26,6 +26,10 @@ const About = () => {
           share similar passions!
         </p>
       </div>
+      <div className="about__buttons">
+        <button className="about__button">{`Let's work togther`}</button>
+        <button className="about__button">{`Download Resume`}</button>
+      </div>
     </section>
   );
 };
